@@ -1,0 +1,35 @@
+/* static/css/styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.transaction-form {
+    @apply max-w-lg mx-auto bg-white dark:bg-gray-800 rounded-lg shadow-md p-6;
+}
+
+.form-input {
+    @apply mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 dark:bg-gray-700 dark:border-gray-600;
+}
+
+.btn-primary {
+    @apply bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500;
+}
+
+.btn-danger {
+    @apply bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500;
+}
+
+.card {
+    @apply bg-white dark:bg-gray-800 rounded-lg shadow-md p-6;
+}
+
+/* Chart container styles */
+.chart-container {
+    @apply bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 mb-6;
+}
+
+/* Responsive grid */
+.grid-container {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6;
+}
